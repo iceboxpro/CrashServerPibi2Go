@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Pibi2GoServer</string>
+    <string name="slogan">Estamos para servirle al cliente con una sonrisa y gran actitud siempre, ya sea prescencial de manera virtual. Llevaremos sus alimentos y/o productos tan rápido como podamos.</string>
+    <string name="txtSU">Registrese</string>
+    <string name="txtSI">Ingrese</string>
+    <string name="entrar">Ingrese al Servidor</string>
+    <string name="pass_eje">270578</string>
+    <string name="hint_password">Ingrese su password</string>
+    <string name="hintcel">Ingrese su # de Celular</string>
+    <string name="celulareje">9696881063</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>
