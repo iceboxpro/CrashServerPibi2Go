@@ -121,6 +121,13 @@ public class Home extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 int id = item.getItemId();
+
+                if (id==R.id.nav_orders)
+                {
+                    Intent orders = new Intent(Home.this,OrderStatus.class);
+                    startActivity(orders);
+                }
+
                 DrawerLayout drawer = (DrawerLayout)findViewById(R.id.drawer_layout);
                 drawer.closeDrawer(GravityCompat.START);
                 return true;

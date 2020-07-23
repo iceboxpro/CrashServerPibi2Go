@@ -8,6 +8,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.elnaranjo.pibi2goserver.Common.Common;
 import com.elnaranjo.pibi2goserver.Interface.ItemClickListener;
 import com.elnaranjo.pibi2goserver.R;
 
@@ -46,9 +47,9 @@ public class OrderViewHolder extends RecyclerView.ViewHolder implements
 
     @Override
     public void onCreateContextMenu(ContextMenu contextMenu, View view, ContextMenu.ContextMenuInfo contextMenuInfo) {
-        contextMenu.setHeaderTitle("Seleccione la acción a realizar");
-        contextMenu.add(0,0,getAdapterPosition(),"Actualizar");
-        contextMenu.add(0,1,getAdapterPosition(),"Actualizar");
+        contextMenu.setHeaderTitle("Seleccione la acción");
+        contextMenu.add(0,0,getAdapterPosition(), Common.UPDATE);
+        contextMenu.add(0,1,getAdapterPosition(),Common.DELETE);
     }
 }
 
