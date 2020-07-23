@@ -1,0 +1,24 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=3F:57:20:57:57:84:C9:7A:74:70:03:F9:71:AC:C4:B6:8A:97:9C:80%3Bcom.elnaranjo.pibi2goserver
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    com.elnaranjo.pibi2goserver
+
+    SHA-1 certificate fingerprint:
+    3F:57:20:57:57:84:C9:7A:74:70:03:F9:71:AC:C4:B6:8A:97:9C:80
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyD13e1r5NfAyR6-QM4G9OlgIB41LXUX8ZI</string>
+</resources>
